@@ -1,0 +1,22 @@
+/*div {
+    -webkit-animation: myfirst 5s;
+    animation: myfirst 5s;
+}*/
+
+@-webkit-keyframes linkhover {
+    from {
+    	text-shadow: 1px 1px 0px rgba(252, 252, 252, 1);
+    }
+    to {
+    	text-shadow: 1px 1px 6px rgba(252, 252, 252, 1);
+    }
+}
+
+@keyframes linkhover {
+    from {
+    	text-shadow: 1px 1px 0px rgba(252, 252, 252, 1);
+    }
+    to {
+    	text-shadow: 1px 1px 6px rgba(252, 252, 252, 1);
+    }
+}
